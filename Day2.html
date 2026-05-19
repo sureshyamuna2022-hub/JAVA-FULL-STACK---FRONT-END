@@ -1,42 +1,45 @@
+<!-- CSS Color Systems - Color Name, RGB, RGBA, HSL, HSLA, HEX, HEXA
+1. Color Name - Uses predefined color names directly
+2. RGB(RED, GREEN, BLUE) RGB - RGB uses three Values - R - 0 to 255, G - 0 to 255, B - 0 to 255
+3. RGBA(RED, GREEN, BLUE)+Alpha - RGBA - adds Alpha (Transparency)
+0-Fully Transparent, 1-Fully Visible
+4. HSL - H - Hub (0 to 360), S - Saturation L - Lightness - 0% to 100% (Percentage)
+5. HSLA - H - Hub (0 to 360), S - Saturation L - Lightness - 0% to 100% (Percentage)
+HSLA adds transparency to HSL
+6. HEX - HEX uses hexadecimal values - #RRGGBB - 0 to 9, A to F
+7. HEXA - HEXA adds transparency to HEX - #RRGGBBAA - 0 to 9, A to F
+ 
+ 
+-->
+ 
+ 
 <html>
     <head>
-        <title>Day 2 HTML Session</title>
-        <link rel="icon" type="image/x-icon" href="https://www.shutterstock.com/image-photo/sun-sets-behind-mountain-ranges-600nw-2479236003.jpg">
+        <title>Day 2 CSS Session</title>
     </head>
  
     <body>
+        <p style="color: rgba(14, 135, 117, 0.803);"> RGB</p>
+        <p style="background-color: rgb(14, 135, 117, 0.803);">RGB</p>
  
-        <p>Welcome to <b>Credo Systemz</b></p>
-        <p>Front End Web Development - <strong>React JS & Redux</strong></p>
  
-        <p>Front End - <i>HTML</i></p>
-        <p>Front End - <em>HTML</em></p>
+        <p style="color: rgba(18, 14, 135, 0.468);"> RGBA</p>
+        <p style="background-color: rgba(18, 14, 135, 0.468);">RGBA</p>
  
-        <p><mark>Welcome to Credo Systemz</mark></p>
+        <p style="color: hsl(109, 100%, 50%);">HSL</p>
+        <p style="background-color: hsl(109, 100%, 50%);">HSL</p>
  
-        <p><small>HTML - </small><big>HTML - </big> HTML</p>
+         <p style="color: hsla(314, 100%, 50%, 0.462);">HSL</p>
+        <p style="background-color: hsla(314, 100%, 50%, 0.462);">HSL</p>
  
-        <p><blockquote>Welcome to java full stack </blockquote></p>
+        <p style="color: #570707;">HEX - #RRGGBB</p>
+        <p style="background-color: #570707;">HEX - #RRGGBB</p>
  
-        <p>Present By - "Yamuna"</p>
-        <p>Present By - <q>Yamuna</q></p> 
+         <p style="color: #57070790;">HEXA - #RRGGBBAA</p>
+        <p style="background-color: #57070790;">HEXA - #RRGGBBAA</p>
  
-        <p>Front End - <u>HTML</u></p>
-        <p>Front End - <ins>HTML</ins></p>
- 
-        <p>Front End - <b><i><mark><u>React JS + Redux</u></mark></i></b></p>
- 
-        <p>Front End - React JS - <s>RS 30000/-</s> - <u>RS 20000/-</u></p>
-        <p>Front End - React JS - <del>RS 30000/-</del> - <ins>RS 20000/-</ins></p>
- 
-        <p>a<sup>2</sup>+b<sup>2</sup>=2ab</p>
- 
-        <p>a<sup>2</sup>+b<sup>2</sup>=((a+b)*(a-b))<sup>2</sup></p>
- 
-        <p>H<sub>2</sub>O</p>
-        <p>CO<sub>2</sub></p>
- 
-        <marquee>Welcome to Credo Systemz - Front End Web Development - Present By - Yamuna s</marquee>
- 
+       
+        <p style="color: orangered;">Welcome to Credo Systemz</p>
+        <p style="background-color: orangered;">Welcome to Credo Systemz</p>
     </body>
 </html>
